@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="date">
+            <h1>Date - Time</h1>
+        </div>
+        <div class="row1">
+            <div class="temp">
+                <div class="city-name">
+                    Toronto
+                </div>
+                <div class="temp-num">
+                    80°
+                </div>
+            </div>
+            <div class="conditions">
+                <div class="icon">
+                    <img src="https://openweathermap.org/img/wn/02n.png" class="condition-img">
+                </div>
+                <div class="condition-text">
+                    Few Clouds
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="sunrise">
+                <img src="/img/sunrise.png" class="sunrise-icon">
+                <p>Sunrise</p>
+                <p id="sunrise-time">00:00 AM</p>
+            </div>
+            <div class="sunset">
+                <img src="/img/sunset.png" alt="">
+                <p>Sunset</p>
+                <p id="sunset-time">00:00 PM</p>
+            </div>
+        </div>
+
+        <div class="row3">
+            <div class="cloudiness">
+                <div class="cloudiness-icon">
+                    <img src="/img/cloudiness.png" class="cloud-img">
+                </div>
+                <p>Cloud Cover</p>
+                <p id="cloud-text">99</p>
+            </div>
+            <div class="wind">
+                <div class="wind-icon">
+                    <img src="/img/wind.png" class="wind-img">
+                </div>
+                <p>Wind Speed</p>
+                <p id="wind-text">99</p>
+            </div>
+            <div class="humidity">
+                <div class="humidity-icon">
+                    <img src="/img/humidity.png" class="humidity-img">
+                </div>
+                <p>Humidity</p>
+                <p id="humidity-text">99</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
